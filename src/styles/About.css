@@ -1,0 +1,59 @@
+/* About Page */
+.about-page {
+    background-color: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: var(--primary);
+  }
+  
+  .about-section {
+    background-color: var(--secondary);
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 700px;
+    margin-bottom: 2rem;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-subtitle {
+    font-size: 1.8rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  
+  .about-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-list li {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: var(--text);
+  }
+  
+  .about-footer {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: var(--primary);
+  }
+  
